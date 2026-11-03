@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Dubbing Video Studio</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #0f172a; color: #fff; padding: 20px; text-align: center; }
+        .container { max-width: 500px; margin: 50px auto; background: #1e293b; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+        input, select, button { width: 100%; padding: 12px; margin: 10px 0; border-radius: 6px; border: none; font-size: 16px; }
+        button { background: #3b82f6; color: white; cursor: pointer; font-weight: bold; }
+        button:hover { background: #2563eb; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🎙️ AI Dubbing Video</h2>
+        <p>Upload video atau masukkan teks untuk mulai proses dubbing otomatis.</p>
+        <input type="file" accept="video/*">
+        <select>
+            <option>Pilih Bahasa Target (Bahasa Khmer / Indonesia / Inggris)</option>
+            <option value="km">Khmer (ភាសាខ្មែរ)</option>
+            <option value="id">Bahasa Indonesia</option>
+            <option value="en">English</option>
+        </select>
+        <button onclick="alert('Fitur AI Dubbing segera diproses!')">Mulai Dubbing</button>
+    </div>
+</body>
+</html>
